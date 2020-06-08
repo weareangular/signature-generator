@@ -108,8 +108,11 @@ const Signature = ({
                     borderRadius: "50%",
                     marginRight: "10px",
                     marginBottom: "10px",
+                    objectFit: "cover",
+                    width: "30px",
                   }}
                   height="30px"
+                  width="30px"
                   alt="Team"
                 />
               ) : null}
