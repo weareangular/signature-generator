@@ -114,7 +114,7 @@ const Signature = ({
                 />
               ) : null}
               <img
-                src="//weareangular.com/static/images/angular-logo-new-black.png"
+                src="https://weareangular.com/static/images/angular-logo-new-black.png"
                 style={{
                   height: "30px",
                   margin: "2px 0",
