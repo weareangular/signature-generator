@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.db221a30.chunk.css",
-    "main.js": "/static/js/main.c79d6c2c.chunk.js",
-    "main.js.map": "/static/js/main.c79d6c2c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.65d21f7c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.65d21f7c.js.map",
-    "static/js/2.3de2043a.chunk.js": "/static/js/2.3de2043a.chunk.js",
-    "static/js/2.3de2043a.chunk.js.map": "/static/js/2.3de2043a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.33eea7e2f4f645221f9101848a9b0188.js": "/precache-manifest.33eea7e2f4f645221f9101848a9b0188.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.db221a30.chunk.css.map": "/static/css/main.db221a30.chunk.css.map",
-    "static/js/2.3de2043a.chunk.js.LICENSE.txt": "/static/js/2.3de2043a.chunk.js.LICENSE.txt",
-    "static/media/angular-logo-new-black.svg": "/static/media/angular-logo-new-black.318e2b86.svg"
+    "main.css": "/signature-generator/static/css/main.db221a30.chunk.css",
+    "main.js": "/signature-generator/static/js/main.6c6628c8.chunk.js",
+    "main.js.map": "/signature-generator/static/js/main.6c6628c8.chunk.js.map",
+    "runtime-main.js": "/signature-generator/static/js/runtime-main.12280068.js",
+    "runtime-main.js.map": "/signature-generator/static/js/runtime-main.12280068.js.map",
+    "static/js/2.3de2043a.chunk.js": "/signature-generator/static/js/2.3de2043a.chunk.js",
+    "static/js/2.3de2043a.chunk.js.map": "/signature-generator/static/js/2.3de2043a.chunk.js.map",
+    "index.html": "/signature-generator/index.html",
+    "precache-manifest.5d59c9f32dc290e4a3a7664c62bab186.js": "/signature-generator/precache-manifest.5d59c9f32dc290e4a3a7664c62bab186.js",
+    "service-worker.js": "/signature-generator/service-worker.js",
+    "static/css/main.db221a30.chunk.css.map": "/signature-generator/static/css/main.db221a30.chunk.css.map",
+    "static/js/2.3de2043a.chunk.js.LICENSE.txt": "/signature-generator/static/js/2.3de2043a.chunk.js.LICENSE.txt",
+    "static/media/angular-logo-new-black.svg": "/signature-generator/static/media/angular-logo-new-black.318e2b86.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.65d21f7c.js",
+    "static/js/runtime-main.12280068.js",
     "static/js/2.3de2043a.chunk.js",
     "static/css/main.db221a30.chunk.css",
-    "static/js/main.c79d6c2c.chunk.js"
+    "static/js/main.6c6628c8.chunk.js"
   ]
 }
