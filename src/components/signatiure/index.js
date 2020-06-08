@@ -23,14 +23,14 @@ const Signature = ({
         <tbody>
           <tr
             style={{
-              textDecoration: "none !important",
+              textDecoration: "none",
               textDecorationColor: "transparent",
             }}
           >
             <td
               style={{
                 textAlign: "left",
-                textDecoration: "none !important",
+                textDecoration: "none",
                 textDecorationColor: "transparent",
               }}
             >
@@ -57,7 +57,7 @@ const Signature = ({
               </p>
               <a
                 style={{
-                  textDecoration: "none !important",
+                  textDecoration: "none",
                   fontSize: "small",
                   lineHeight: "150%",
                   color: color,
@@ -75,7 +75,7 @@ const Signature = ({
                   •{" "}
                   <a
                     style={{
-                      textDecoration: "none !important",
+                      textDecoration: "none",
                       fontFamily: font,
                       fontSize: "small",
                       lineHeight: "150%",

@@ -94,9 +94,12 @@ const App = () => {
         <p>
           A continuación, cuando tengas tu información lista, dale click en{" "}
           <b>Copiar Firma</b> o selecciona el contenido desde los dos guiones
-          finales hasta los dos guiones iniciales copiarlo y pégalo como firma
-          de correo electrónico. Cuando pegues el contenido asegúrate de
-          eliminar con cuidad los guiones.
+          finales hasta los dos guiones iniciales, copialo y pégalo como firma
+          de correo electrónico.{" "}
+          <b>
+            Cuando pegues el contenido asegúrate de eliminar con cuidado los
+            guiones.
+          </b>
         </p>
         <button
           style={{
