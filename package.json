@@ -1,7 +1,7 @@
 {
   "name": "signatures-generator",
   "version": "0.1.0",
-  "homepage": "http://weareangular.github.io/signature-generator",
+  "homepage": "https://weareangular.github.io/signature-generator/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
