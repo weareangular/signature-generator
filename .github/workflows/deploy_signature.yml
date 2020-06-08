@@ -1,0 +1,23 @@
+name: Build Signature (GH-Pages)
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Build (Signature) artifact
+        run: |
+          npm install
+          npm run build
+      - name: Deploy (Signature)
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
