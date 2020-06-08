@@ -2,4 +2,4 @@
 
 © 2020 We Are Angular
 
-[![Actions Status](https://github.com/weareangular/signature-generator/workflows/Build+Signature+%28GH-Pages%29/badge.svg)](https://github.com/weareangular/signature-generator/actions)
+![Build Signature (GH-Pages)](<https://github.com/weareangular/signature-generator/workflows/Build%20Signature%20(GH-Pages)/badge.svg>)
