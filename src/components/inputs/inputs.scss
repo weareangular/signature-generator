@@ -1,0 +1,93 @@
+$font-family: "Product Sans", "SF Pro", "Helvetica", "Arial", sans-serif;
+
+.container-input {
+  margin-bottom: 40px;
+  label.input-mask {
+    align-items: flex-start;
+    background: #ececec;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    outline: none;
+    outline-style: none;
+    padding: 15px 20px;
+    width: 100%;
+    span.label-input {
+      color: #1b1f46;
+      font-size: 14px;
+      font-weight: 300;
+      transition: all ease 0.3s;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      width: calc(100% - 12px);
+      .required-dot {
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        background: red;
+        border-radius: 50%;
+        margin-top: 7px;
+        margin-left: 5px;
+        position: absolute;
+      }
+    }
+    span.label-up {
+      margin-left: -20px;
+      margin-top: -38px;
+      margin-bottom: 20px;
+      opacity: 1;
+      font-weight: 700;
+    }
+
+    span.label-down {
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom: -18px;
+      opacity: 0.5;
+      font-weight: 300;
+    }
+
+    .input-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      input {
+        width: 100%;
+        background: transparent;
+        font-family: $font-family;
+        border: 0;
+        color: #1b1f46;
+        font-size: 14px;
+        box-sizing: border-box;
+        outline: none;
+        text-align: left;
+      }
+
+      select {
+        text-align: center;
+        border-width: 0;
+        color: #1b1f46;
+        font-family: $font-family;
+        min-width: 40px;
+        margin-top: 0px;
+        background: transparent;
+        font-size: 14px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        outline: none;
+        position: static;
+        z-index: 3;
+      }
+    }
+  }
+}

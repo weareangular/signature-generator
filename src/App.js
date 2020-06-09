@@ -1,10 +1,49 @@
 import React, { useState } from "react";
 import logo from "./assets/images/angular-logo-new-black.svg";
 import "./app.scss";
-import { Signature } from "./components/signatiure";
+import { Signature } from "./components/signature";
+import { PrimaryInput } from "./components/inputs";
 
 const App = () => {
-  const colors = ["#00B6C7", "#F20002", "#FF9900", "#00AA96", "#ECB89E"];
+  const colors = [
+    "#00f57a",
+    "#00AA96",
+    "#00B6C7",
+    "#1a4069",
+    "#7530c9",
+    "#F20002",
+    "#ff6200",
+    "#FF9900",
+    "#ffcc00",
+    "#ECB89E",
+  ];
+  const charges = [
+    "Director de Diseño",
+    "Directora de Diseño",
+    "UX Designer",
+    "Diseñadora UX",
+    "Diseñador UX",
+    "Web Developer",
+    "Director de Tecnología",
+    "Chief Technology Officer",
+    "Head of Product",
+    "Frontend Developer",
+    "Backend Developer",
+    "Project Manager",
+    "Product Manager",
+    "Product Designer",
+    "Director General",
+    "CEO & Founder",
+    "Director y Fundador",
+    "Chief Executive Officer",
+    "CEO",
+    "Director de Marketing",
+    "Marketing Director",
+    "Diseñador Gráfico",
+    "Diseñadora Gráfica",
+    "Diseñadora de Experiencia de Usuario",
+    "Diseñador de Experiencia de Usuario",
+  ];
   const [name, setName] = useState("");
   const [charge, setCharge] = useState("");
   const [email, setEmail] = useState("");
@@ -35,42 +74,44 @@ const App = () => {
       <div className="form-container">
         <p>Llena los campos</p>
         <form>
-          <input
+          <PrimaryInput
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Nombre completo"
-            required
+            placeHolder="Nombre completo"
+            isRequired
           />
 
-          <input
+          <PrimaryInput
             type="text"
             value={charge}
             onChange={(e) => setCharge(e.target.value)}
-            placeholder="Cargo en Angular"
-            required
+            placeHolder="Cargo en Angular"
+            isRequired
+            isSelect
+            optionsSelect={charges}
           />
 
-          <input
+          <PrimaryInput
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Correo electrónico"
-            required
+            placeHolder="Correo electrónico"
+            isRequired
           />
 
-          <input
+          <PrimaryInput
             type="tel"
             value={telephone}
             onChange={(e) => setTelephone(e.target.value)}
-            placeholder="Teléfono de contacto"
+            placeHolder="Teléfono de contacto"
           />
 
-          <input
+          <PrimaryInput
             type="url"
             value={photoURL}
             onChange={(e) => setPhotoURL(e.target.value)}
-            placeholder="URL de imagen"
+            placeHolder="URL de imágen"
           />
 
           <div className="color-options">
