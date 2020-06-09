@@ -38,29 +38,13 @@ body {
       font-weight: bold;
       text-align: left;
       width: 100%;
+      margin-bottom: 40px;
     }
     form {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 20px;
+      grid-column-gap: 40px;
       width: 100%;
-    }
-    input {
-      background: #f3f3f3;
-      border: 2px solid #f3f3f3;
-      border-radius: 10px;
-      box-sizing: border-box;
-      font-family: $font-family;
-      font-size: 16px;
-      display: grid;
-      padding: 15px 20px;
-      margin-bottom: 20px;
-      outline: none;
-      width: 100%;
-      &:focus {
-        border-color: rgb(255, 217, 0);
-        background: #fffae6;
-      }
     }
 
     .color-options {
@@ -104,6 +88,7 @@ body {
     width: 90%;
 
     p {
+      color: #1b1f46;
       box-sizing: border-box;
       padding-right: 30px;
     }
@@ -132,6 +117,7 @@ body {
     box-sizing: border-box;
     margin: auto;
     max-width: $max-width;
+    margin-top: 10px;
     width: 90%;
     border: 1px solid #ddd;
   }

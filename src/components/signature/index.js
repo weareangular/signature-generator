@@ -106,7 +106,7 @@ const Signature = ({
                     height: "30px",
                     border: `2px solid ${color}`,
                     borderRadius: "50%",
-                    marginRight: "10px",
+                    marginRight: "15px",
                     marginBottom: "10px",
                     objectFit: "cover",
                     width: "30px",
