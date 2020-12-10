@@ -4,10 +4,10 @@ $font-family: "Product Sans", "SF Pro", "Helvetica", "Arial", sans-serif;
   margin-bottom: 40px;
   label.input-mask {
     align-items: flex-start;
-    background: #ececec;
+    background: transparent;
     box-sizing: border-box;
-    border-radius: 10px;
-    border: 2px solid #ececec;
+    border-radius: 0;
+    border-bottom: 1px solid #1b1f46;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

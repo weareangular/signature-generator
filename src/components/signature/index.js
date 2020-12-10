@@ -19,7 +19,7 @@ const Signature = ({
   return (
     <>
       {"--"}
-      <table style={{ fontFamily: font }}>
+      <table style={{ fontFamily: font, fontStyle: "normal" }}>
         <tbody>
           <tr
             style={{
@@ -37,27 +37,32 @@ const Signature = ({
               <p
                 style={{
                   fontWeight: "bolder",
+                  fontFamily: font,
                   fontSize: "small",
+                  fontStyle: "normal",
                   lineHeight: "150%",
                   margin: 0,
                   color: "#101921",
                 }}
               >
-                {name ? name : "Agregue un nombre"}
+                {name ? name : "Add your full name"}
               </p>
               <p
                 style={{
                   fontSize: "small",
+                  fontFamily: font,
+                  fontStyle: "normal",
                   lineHeight: "150%",
                   margin: 0,
                   color: "#101921",
                 }}
               >
-                {charge ? charge : "Agregue un cargo"}
+                {charge ? charge : "Add your current position"}
               </p>
               <a
                 style={{
                   textDecoration: "none",
+                  fontFamily: font,
                   fontSize: "small",
                   lineHeight: "150%",
                   color: color,
@@ -65,9 +70,9 @@ const Signature = ({
                   textDecorationColor: "transparent",
                   display: "inline-block",
                 }}
-                href={`mailto:${email ? email : "hablemos@weareangular.com"}`}
+                href={`mailto:${email ? email : "hello@weareangular.com"}`}
               >
-                {email ? email : "Agregue un correo"}
+                {email ? email : "Add your work email"}
               </a>
               {telephone ? (
                 <>
@@ -95,7 +100,7 @@ const Signature = ({
               style={{
                 verticalAlign: "top",
                 textAlign: "right",
-                height: "30px",
+                height: "40px",
                 boxSizing: "border-box",
               }}
             >
@@ -103,28 +108,28 @@ const Signature = ({
                 <img
                   src={photoURL}
                   style={{
-                    height: "30px",
+                    height: "40px",
                     border: `2px solid ${color}`,
                     borderRadius: "50%",
                     marginRight: "15px",
                     marginBottom: "10px",
                     objectFit: "cover",
-                    width: "30px",
+                    width: "40px",
                   }}
-                  height="30px"
-                  width="30px"
-                  alt="Team"
+                  height="40px"
+                  width="40px"
+                  alt={name ? name : "Profile Member"}
                 />
               ) : null}
               <img
-                src="https://weareangular.com/static/images/angular-logo-new-black.png"
+                src="https://res.cloudinary.com/weareangular/image/upload/v1607026971/weareangular/mailing/waa-logo-2021-icon-night_upsrz6.png"
                 style={{
-                  height: "30px",
+                  height: "40px",
                   margin: "2px 0",
                   marginBottom: "10px",
                 }}
-                height="30px"
-                alt="Angular Logo"
+                height="40px"
+                alt="We Are Angular Logo"
               />
             </td>
           </tr>
@@ -140,8 +145,8 @@ const Signature = ({
                   color: "#5d6b77",
                 }}
               >
-                Cl. 18 Nº 122 - 135, Cali, Colombia <br />©{" "}
-                {new Date().getFullYear()} Angular Diseño más Interacción S.A.S.
+                Cl. 18 No. 122-135, Cali, Colombia <br />©{" "}
+                {new Date().getFullYear()} We Are Angular
               </p>
               <a
                 style={{
