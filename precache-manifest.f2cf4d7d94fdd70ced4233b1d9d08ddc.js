@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bded16e7afc5de12365666a8ac711477",
+    "revision": "6a3470f4df8cfc38df5029b258526bef",
     "url": "/signature-generator/index.html"
   },
   {
-    "revision": "31a7a5ee8232dd658297",
-    "url": "/signature-generator/static/css/main.fb0fece1.chunk.css"
+    "revision": "ddb9c589c1fe743adb28",
+    "url": "/signature-generator/static/css/main.f529fbd3.chunk.css"
   },
   {
     "revision": "1d02c7eea96c6db01d1c",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/signature-generator/static/js/2.3de2043a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31a7a5ee8232dd658297",
-    "url": "/signature-generator/static/js/main.e3026c4c.chunk.js"
+    "revision": "ddb9c589c1fe743adb28",
+    "url": "/signature-generator/static/js/main.62a88a1a.chunk.js"
   },
   {
     "revision": "d3115e7c38bc3b434d70",
     "url": "/signature-generator/static/js/runtime-main.12280068.js"
   },
   {
-    "revision": "318e2b86fd68b871a8a1d6e2b2ff353d",
-    "url": "/signature-generator/static/media/angular-logo-new-black.318e2b86.svg"
+    "revision": "baf26dd27f8311cf6776c43f3b7920fc",
+    "url": "/signature-generator/static/media/waa-logo-2021-icon-night.baf26dd2.svg"
   }
 ]);
