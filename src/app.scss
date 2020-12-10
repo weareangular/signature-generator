@@ -1,6 +1,7 @@
-$font-family: "Product Sans", "SF Pro", "Helvetica", "Arial", sans-serif;
+$font-family: "Manrope", "Roboto", "SF Pro", "Helvetica", "Arial", sans-serif;
 $max-width: 800px;
 * {
+  font-family: $font-family;
   transition: all ease 0.3s;
 }
 body {
@@ -10,7 +11,6 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    font-family: $font-family;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -26,7 +26,6 @@ body {
   }
 
   .form-container {
-    font-family: $font-family;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -38,12 +37,13 @@ body {
       font-weight: bold;
       text-align: left;
       width: 100%;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     form {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 40px;
+      grid-column-gap: 30px;
+      grid-row-gap: 10px;
       width: 100%;
     }
 
@@ -52,7 +52,7 @@ body {
       flex-direction: row;
       justify-content: flex-start;
       align-items: flex-start;
-      padding-top: 10px;
+      padding-bottom: 30px;
       span {
         border-radius: 50%;
         cursor: pointer;
@@ -79,7 +79,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     font-family: $font-family;
     font-size: 14px;
     line-height: 150%;
@@ -98,8 +98,9 @@ body {
       flex-wrap: nowrap;
       font-family: $font-family;
       font-weight: bold;
-      border-radius: 10px;
-      padding: 10px 20px;
+      border-radius: 0;
+      padding: 15px 20px;
+      margin-top: 20px;
       min-width: 130px;
       cursor: pointer;
       &:hover {
@@ -111,15 +112,15 @@ body {
   }
 
   .container-signature {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
     padding: 20px;
     box-sizing: border-box;
     margin: auto;
     max-width: $max-width;
     margin-top: 10px;
     width: 90%;
-    border: 1px solid #ddd;
+    border: 1px solid #eee;
   }
   footer {
     width: 100%;

@@ -1,49 +1,12 @@
 import React, { useState } from "react";
-import logo from "./assets/images/angular-logo-new-black.svg";
+import logo from "./assets/images/waa-logo-2021-icon-night.svg";
 import "./app.scss";
 import { Signature } from "./components/signature";
 import { PrimaryInput } from "./components/inputs";
+import { colors } from "./assets/style/colors";
+import { charges } from "./assets/content";
 
 const App = () => {
-  const colors = [
-    "#00f57a",
-    "#00AA96",
-    "#00B6C7",
-    "#1a4069",
-    "#7530c9",
-    "#F20002",
-    "#ff6200",
-    "#FF9900",
-    "#ffcc00",
-    "#ECB89E",
-  ];
-  const charges = [
-    "Director de Diseño",
-    "Directora de Diseño",
-    "UX Designer",
-    "Diseñadora UX",
-    "Diseñador UX",
-    "Web Developer",
-    "Director de Tecnología",
-    "Chief Technology Officer",
-    "Head of Product",
-    "Frontend Developer",
-    "Backend Developer",
-    "Project Manager",
-    "Product Manager",
-    "Product Designer",
-    "Director General",
-    "CEO & Founder",
-    "Director y Fundador",
-    "Chief Executive Officer",
-    "CEO",
-    "Director de Marketing",
-    "Marketing Director",
-    "Diseñador Gráfico",
-    "Diseñadora Gráfica",
-    "Diseñadora de Experiencia de Usuario",
-    "Diseñador de Experiencia de Usuario",
-  ];
   const [name, setName] = useState("");
   const [charge, setCharge] = useState("");
   const [email, setEmail] = useState("");
@@ -72,13 +35,13 @@ const App = () => {
       </header>
 
       <div className="form-container">
-        <p>Llena los campos</p>
+        <p>Fill the inputs</p>
         <form>
           <PrimaryInput
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeHolder="Nombre completo"
+            placeHolder="Full name"
             isRequired
           />
 
@@ -86,7 +49,7 @@ const App = () => {
             type="text"
             value={charge}
             onChange={(e) => setCharge(e.target.value)}
-            placeHolder="Cargo en Angular"
+            placeHolder="Current position"
             isRequired
             isSelect
             optionsSelect={charges}
@@ -96,7 +59,7 @@ const App = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeHolder="Correo electrónico"
+            placeHolder="Work email"
             isRequired
           />
 
@@ -104,32 +67,32 @@ const App = () => {
             type="tel"
             value={telephone}
             onChange={(e) => setTelephone(e.target.value)}
-            placeHolder="Teléfono de contacto"
+            placeHolder="Contact phone number"
           />
 
           <PrimaryInput
             type="url"
             value={photoURL}
             onChange={(e) => setPhotoURL(e.target.value)}
-            placeHolder="URL de imágen"
+            placeHolder="URL profile image"
           />
-
-          <div className="color-options">
-            {colors.map((option, index) => (
-              <span
-                key={index}
-                style={{
-                  background: option,
-                  boxShadow:
-                    option === color ? `0px 0px 10px ${option}dd` : `none`,
-                }}
-                onClick={() => setColor(option)}
-                className={option === color ? "selected-color" : ""}
-                title={option}
-              ></span>
-            ))}
-          </div>
         </form>
+        <p>Select your favorite color</p>
+        <div className="color-options">
+          {colors.map((option, index) => (
+            <span
+              key={index}
+              style={{
+                background: option,
+                boxShadow:
+                  option === color ? `0px 0px 10px ${option}dd` : `none`,
+              }}
+              onClick={() => setColor(option)}
+              className={option === color ? "selected-color" : ""}
+              title={option}
+            ></span>
+          ))}
+        </div>
       </div>
       <div className="guide">
         <p>
@@ -144,7 +107,7 @@ const App = () => {
         </p>
         <button
           style={{
-            border: `2px solid ${color}`,
+            border: "none",
             background: `${color}33`,
             color: color,
           }}
@@ -162,7 +125,7 @@ const App = () => {
           email={email}
           telephone={telephone}
           photoURL={photoURL}
-          font="Helvetica, Arial, sans-serif"
+          font="Helvetica,'Roboto',Arial, sans-serif"
           color={color}
         />
       </div>
