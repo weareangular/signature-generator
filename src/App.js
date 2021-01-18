@@ -51,8 +51,6 @@ const App = () => {
             onChange={(e) => setCharge(e.target.value)}
             placeHolder="Current position"
             isRequired
-            isSelect
-            optionsSelect={charges}
           />
 
           <PrimaryInput
