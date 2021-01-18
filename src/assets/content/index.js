@@ -1,6 +1,7 @@
 export const charges = [
   "Account Manager",
   "Community Manager",
+  "CEO & Founder",
   "Visual Designer",
   "Product Designer",
   "UX Designer",
@@ -14,6 +15,6 @@ export const charges = [
   "Head of Product Design",
   "Project Manager",
   "Product Manager",
+  "Social Media Manager",
   "Graphic Designer",
-  "CEO & Founder",
 ];
