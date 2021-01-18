@@ -4,7 +4,6 @@ import "./app.scss";
 import { Signature } from "./components/signature";
 import { PrimaryInput } from "./components/inputs";
 import { colors } from "./assets/style/colors";
-import { charges } from "./assets/content";
 
 const App = () => {
   const [name, setName] = useState("");
