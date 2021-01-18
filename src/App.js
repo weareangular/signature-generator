@@ -12,7 +12,7 @@ const App = () => {
   const [email, setEmail] = useState("");
   const [telephone, setTelephone] = useState("");
   const [photoURL, setPhotoURL] = useState(
-    "https://weareangular.com/static/images/juan-perez.png"
+    "https://res.cloudinary.com/weareangular/image/upload/v1608214720/weareangular/mailing/waa-logo-circle-email_ffvego.png"
   );
   const [color, setColor] = useState(colors[0]);
 
